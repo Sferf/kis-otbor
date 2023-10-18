@@ -3,28 +3,24 @@
 
 Isachenko Pavel
 
-to compile 
-
+скомпилировать клиента:
 g++ client.cpp -o client
 
-how to use client:
-
+запустить:
 ./client
 
-now answer if you want to server using "y"+Enter than enter you oneline MESSAGE
+как только пришло сообщение от сервера у вас есть возможность ответить использую "y"+Enter далее введите ваше oneline MESSAGE
 
+скомпилировать сервер:
 g++ server.cpp -o server 
 
-how to use server
-
+запустить сервер:
 ./server
 
-when client connect you get his identifier
-
-now you can print "identifier MESSAGE" and client will be get MESSAGE
+Когда клиент подключится вы увидете его идентификатор. Теперь можно писать "identifier MESSAGE" и клиент с нужным вам идентификатором получит MESSAGE
 
 "666666 MESSAGE" broadcast identifier + MESSAGE
 
-"777777 clients" to show clients list 
+"777777 clients" show clients list 
 
 OS: Linux
