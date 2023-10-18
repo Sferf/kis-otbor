@@ -21,6 +21,8 @@ how to use server
 
 when client connect you get his identifier
 
+OS: Linux
+
 now you can print "identifier MESSAGE" and client will be get MESSAGE
 
 "666666 MESSAGE" broadcast identifier + MESSAGE
